@@ -1,0 +1,230 @@
+@media only screen and (max-width:1083px) {
+
+    .container {
+      >div {
+        margin: 0 !important;
+      }
+    }
+  
+    .card-section {
+      grid-template-columns: repeat(2, 1fr) !important;
+      margin: 0 20px;
+    }
+  
+  
+    .social-section,
+    .footer-grid,
+    .footer section,
+    .nav-menu {
+       margin-left: 20px !important;
+       margin-right: 20px !important;
+    }
+  
+    .banner-case-2 {
+  
+      >div {
+        p {
+          width: 350px !important;
+        }
+      }
+    }
+  
+    .banner-case-3 {
+      .first-case {
+        >div {
+          right: 8% !important;
+  
+          h2,
+          p {
+            width: 320px !important;
+          }
+        }
+      }
+  
+      .second-case {
+        >div {
+          p {
+            width: 340px !important;
+          }
+        }
+      }
+    }
+  
+    .footer-grid {
+      display: grid !important;
+      grid-template-columns: repeat(3, 1fr) !important;
+      grid-gap: 20px !important;
+    }
+  
+    .footer {
+      section {
+        flex-direction: column !important;
+  
+        .globe-country {
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width:960px) {
+    .nav-menu {
+      .nav-menu-list {
+  
+        li:nth-child(7),
+        li:nth-child(6) {
+          display: none !important;
+        }
+  
+        li:nth-child(8) {
+          display: block !important;
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width:925px) {
+    .nav-menu-list {
+      li:nth-child(5) {
+        display: none !important;
+      }
+    }
+  }
+  
+  @media only screen and (min-width:870px) {
+    .nav-menu-mobile {
+      display: none !important;
+    }
+  }
+  
+  @media only screen and (max-width:870px) {
+    .nav-menu {
+      display: none !important;
+    }
+  
+    .nav-menu-2 {
+      margin: 0 20px;
+      display: flex !important;
+    }
+  
+    .store-section {
+      li {
+        margin-right: 15px !important;
+      }
+    }
+  
+    .banner-case {
+      .second-case {
+        >div {
+          p {
+            width: 380px !important;
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width:784px) {
+  
+    .banner-case,
+    .banner-case-2,
+    .banner-case-3 {
+      display: none !important;
+    }
+  
+    .banner-case-hidden,
+    .banner-case-2-hidden,
+    .banner-case-3-hidden {
+      display: block !important;
+    }
+  
+    .store-section {
+      margin-left: 40px !important;
+      justify-content: left !important;
+      flex-direction: column !important;
+  
+      li {
+        margin-bottom: 20px !important;
+  
+        div {
+          flex-direction: row !important;
+  
+          img {
+            margin: 0 !important;
+            margin-top: 5px !important;
+            width: 20px !important;
+            height: 20px !important;
+          }
+  
+          a {
+            width: 140px !important;
+            text-align: left !important;
+            margin-left: 8px;
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width:558px) {
+  
+    .card-section,
+    .footer-grid {
+      grid-template-columns: repeat(1, 1fr) !important;
+    }
+  }
+  
+  @media only screen and (min-width:1400px) {
+    .banner-case-2 {
+      >div {
+        h2 {
+          font-size: 50px !important;
+        }
+      }
+    }
+  
+    .banner-case {
+      >div {
+        h2 {
+          font-size: 40px !important;
+        }
+      }
+    }
+  
+    .banner-case-3 {
+      .first-case {
+        >div {
+          p {
+            width: 520px !important;
+          }
+  
+          right: 7% !important;
+  
+          h2 {
+            width: 350px !important;
+            font-size: 40px !important;
+          }
+        }
+      }
+  
+      .second-case {
+        >div {
+          h2 {
+            width: 480px !important;
+            font-size: 40px !important;
+          }
+  
+          p {
+            width: 500px !important;
+          }
+        }
+      }
+  
+    }
+  }
+  
+  @media only screen and (max-width:1400px) {
+    .content{
+      display: none;
+    }
+  }

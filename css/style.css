@@ -1,0 +1,1254 @@
+a,
+body,
+li,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+.ms-Icon--ChevronRightMed {
+  font-size: 11px !important;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: calc(1600px + 10%);
+  padding: 0;
+}
+
+.container > div {
+  margin: 0 3.8em;
+}
+
+.container > div .header-region .nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+.container > div .header-region .nav-menu .logo {
+  cursor: pointer;
+  background: url("../img/logo.png") no-repeat center center/contain;
+  height: 25px;
+  width: 130px;
+  margin-right: 20px;
+}
+
+.container > div .header-region .nav-menu .cart-btn,
+.container > div .header-region .nav-menu .search-btn,
+.container > div .header-region .nav-menu .user-btn {
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.container > div .header-region .nav-menu .cart-btn i,
+.container > div .header-region .nav-menu .search-btn i,
+.container > div .header-region .nav-menu .user-btn i {
+  font-size: 16px;
+}
+
+.container > div .header-region .nav-menu .chevron-down {
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.container > div .header-region .nav-menu .chevron-down i {
+  margin-left: 5px;
+  font-size: 10px;
+  color: #2c2c2c;
+}
+
+.container > div .header-region .nav-menu .chevron-down a {
+  font-size: 13px;
+  color: #262626;
+}
+
+.container > div .header-region .nav-menu .chevron-down:hover a {
+  border-bottom: 2px solid #000;
+}
+
+.container > div .header-region .nav-menu .content {
+  font-size: 13px;
+  margin-right: 5px;
+  border-bottom: 2px solid #fff;
+}
+
+.container > div .header-region .nav-menu .content:hover {
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+}
+
+.container > div .header-region .nav-menu .user-btn {
+  margin-right: 10px;
+}
+
+.container > div .header-region .nav-menu .nav-menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+.container > div .header-region .nav-menu .nav-menu-list :nth-child(8) {
+  display: none;
+}
+
+.container > div .header-region .nav-menu .nav-menu-list :nth-child(8) i {
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.container > div .header-region .nav-menu .nav-menu-list li {
+  margin-right: 15px;
+  padding: 2px;
+}
+
+.container > div .header-region .nav-menu .nav-menu-list a {
+  font-size: 13px;
+  color: #262626;
+  border-bottom: 2px solid transparent;
+  float: left;
+}
+
+.container > div .header-region .nav-menu .nav-menu-list a:hover {
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+}
+
+.container > div .header-region .nav-menu-2 {
+  position: relative;
+  display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 55px;
+}
+
+.container > div .header-region .nav-menu-2 .logo {
+  background: url("../img/logo.png") no-repeat center center/contain;
+  height: 25px;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  cursor: pointer;
+}
+
+.container > div .header-region .nav-menu-2 .cart-btn,
+.container > div .header-region .nav-menu-2 .search-btn,
+.container > div .header-region .nav-menu-2 .user-btn {
+  cursor: pointer;
+}
+
+.container > div .header-region .nav-menu-2 .cart-btn i,
+.container > div .header-region .nav-menu-2 .search-btn i,
+.container > div .header-region .nav-menu-2 .user-btn i {
+  font-size: 16px;
+}
+
+.container > div .header-region .nav-menu-2 .cart-btn {
+  margin-right: 20px;
+}
+
+.container > div .header-region .nav-menu-2 .close {
+  display: none;
+  margin-right: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.container > div .header-region .nav-menu-2 .close i {
+  color: #262626;
+}
+
+.container > div .header-region .nav-menu-2 .burger-menu {
+  margin-right: 20px;
+  width: 20px;
+  text-align: center;
+}
+
+.container > div .header-region .nav-menu-2 > div {
+  display: block;
+  cursor: pointer;
+}
+
+.container > div .header-region .nav-menu-2 > div > i {
+  margin-top: 0;
+}
+
+.container > div .header-region .nav-menu-mobile {
+  display: none;
+}
+
+.container > div .header-region .nav-menu-mobile > div {
+  background: #f2f2f2;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container > div .header-region .nav-menu-mobile > div .dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container > div .header-region .nav-menu-mobile > div .dropdown-content-default-hidden,
+.container > div .header-region .nav-menu-mobile > div .dropdown-content {
+  display: none;
+}
+
+.container > div .header-region .nav-menu-mobile > div .dropdown-content-default-hidden {
+  padding: 0 !important;
+}
+
+.container > div .header-region .nav-menu-mobile > div .dropdown-content-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container > div .header-region .nav-menu-mobile > div .dropdown-content-flex > a {
+  margin-left: 30px;
+  padding: 16px 13px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.container > div .header-region .nav-menu-mobile > div .dropdown-content-flex :last-child {
+  border-bottom: none;
+}
+
+.container > div .header-region .nav-menu-mobile > div > div {
+  padding: 16px 13px;
+  border-bottom: 1px solid #e6e6e6;
+  cursor: pointer;
+}
+
+.container > div .header-region .nav-menu-mobile > div > div:last-child {
+  border-bottom: 1px solid #000;
+}
+
+.container > div .header-region .nav-menu-mobile > div a,
+.container > div .header-region .nav-menu-mobile > div span {
+  color: #262626;
+  font-size: 15px;
+  margin: 1px;
+}
+
+.container > div .header-region .nav-menu-mobile > div .fa-chevron-down,
+.container > div .header-region .nav-menu-mobile > div .fa-chevron-up {
+  font-size: 12px;
+  color: #262626;
+}
+
+.container > div .covid-info {
+  padding: 12px 36px;
+  background-color: #0067B8;
+  text-align: center;
+  display: block;
+  outline: 1px dashed transparent;
+  color: white;
+}
+
+.container > div .covid-info:hover {
+  text-decoration: underline;
+  margin: 0 0.8px;
+  cursor: pointer;
+  outline: 1px dashed black;
+  color: white;
+}
+
+.container > div .covid-info:hover a > .ms-Icon--ChevronRightMed {
+  padding-left: 10px;
+}
+
+.container > div .covid-info a {
+  color: #fff;
+  font-size: 13px;
+}
+
+.container > div .covid-info a > .ms-Icon--ChevronRightMed {
+  font-size: 12px;
+  margin-left: 5px;
+  margin-top: 0;
+  color: #fff !important;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  right: 0;
+}
+
+.container > div .banner-case .first-case,
+.container > div .banner-case .second-case,
+.container > div .banner-case-3 .first-case,
+.container > div .banner-case-3 .second-case {
+  position: relative;
+}
+
+.container > div .banner-case .first-case:hover .previous-btn,
+.container > div .banner-case .first-case:hover .next-btn,
+.container > div .banner-case .second-case:hover .previous-btn,
+.container > div .banner-case .second-case:hover .next-btn,
+.container > div .banner-case-3 .first-case:hover .previous-btn,
+.container > div .banner-case-3 .first-case:hover .next-btn,
+.container > div .banner-case-3 .second-case:hover .previous-btn,
+.container > div .banner-case-3 .second-case:hover .next-btn {
+  display: block;
+}
+
+.container > div .banner-case .first-case img,
+.container > div .banner-case .second-case img,
+.container > div .banner-case-3 .first-case img,
+.container > div .banner-case-3 .second-case img {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+
+.container > div .banner-case .first-case > div,
+.container > div .banner-case .second-case > div,
+.container > div .banner-case-3 .first-case > div,
+.container > div .banner-case-3 .second-case > div {
+  position: absolute;
+}
+
+.container > div .banner-case .first-case > div h2,
+.container > div .banner-case .first-case > div p,
+.container > div .banner-case .second-case > div h2,
+.container > div .banner-case .second-case > div p,
+.container > div .banner-case-3 .first-case > div h2,
+.container > div .banner-case-3 .first-case > div p,
+.container > div .banner-case-3 .second-case > div h2,
+.container > div .banner-case-3 .second-case > div p {
+  margin-bottom: 15px;
+}
+
+.container > div .banner-case .first-case > div .btn,
+.container > div .banner-case .second-case > div .btn,
+.container > div .banner-case-3 .first-case > div .btn,
+.container > div .banner-case-3 .second-case > div .btn {
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+  display: block;
+}
+
+.container > div .banner-case .first-case > div .btn i,
+.container > div .banner-case .second-case > div .btn i,
+.container > div .banner-case-3 .first-case > div .btn i,
+.container > div .banner-case-3 .second-case > div .btn i {
+  -webkit-transition: margin 0.4s;
+  transition: margin 0.4s;
+}
+
+.container > div .banner-case .first-case > div .btn a,
+.container > div .banner-case .second-case > div .btn a,
+.container > div .banner-case-3 .first-case > div .btn a,
+.container > div .banner-case-3 .second-case > div .btn a {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.container > div .banner-case .first-case > div .btn:hover,
+.container > div .banner-case .second-case > div .btn:hover,
+.container > div .banner-case-3 .first-case > div .btn:hover,
+.container > div .banner-case-3 .second-case > div .btn:hover {
+  opacity: 0.9;
+}
+
+.container > div .banner-case .first-case > div .btn:hover i,
+.container > div .banner-case .second-case > div .btn:hover i,
+.container > div .banner-case-3 .first-case > div .btn:hover i,
+.container > div .banner-case-3 .second-case > div .btn:hover i {
+  margin-left: 8px;
+}
+
+.container > div .banner-case .first-case .previous-btn, .container > div .banner-case .first-case .next-btn,
+.container > div .banner-case .second-case .previous-btn,
+.container > div .banner-case .second-case .next-btn,
+.container > div .banner-case-3 .first-case .previous-btn,
+.container > div .banner-case-3 .first-case .next-btn,
+.container > div .banner-case-3 .second-case .previous-btn,
+.container > div .banner-case-3 .second-case .next-btn {
+  display: none;
+  position: absolute;
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 0;
+  outline: none;
+}
+
+.container > div .banner-case .first-case .previous-btn:hover, .container > div .banner-case .first-case .next-btn:hover,
+.container > div .banner-case .second-case .previous-btn:hover,
+.container > div .banner-case .second-case .next-btn:hover,
+.container > div .banner-case-3 .first-case .previous-btn:hover,
+.container > div .banner-case-3 .first-case .next-btn:hover,
+.container > div .banner-case-3 .second-case .previous-btn:hover,
+.container > div .banner-case-3 .second-case .next-btn:hover {
+  cursor: pointer;
+}
+
+.container > div .banner-case .first-case .previous-btn,
+.container > div .banner-case .second-case .previous-btn,
+.container > div .banner-case-3 .first-case .previous-btn,
+.container > div .banner-case-3 .second-case .previous-btn {
+  left: 1px;
+}
+
+.container > div .banner-case .first-case .next-btn,
+.container > div .banner-case .second-case .next-btn,
+.container > div .banner-case-3 .first-case .next-btn,
+.container > div .banner-case-3 .second-case .next-btn {
+  right: 1px;
+}
+
+.container > div .banner-case-hidden,
+.container > div .banner-case-3-hidden {
+  display: none;
+  cursor: pointer;
+}
+
+.container > div .banner-case-hidden .first-case-hidden > img,
+.container > div .banner-case-hidden .second-case-hidden > img,
+.container > div .banner-case-3-hidden .first-case-hidden > img,
+.container > div .banner-case-3-hidden .second-case-hidden > img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.container > div .banner-case-hidden .first-case-hidden > div,
+.container > div .banner-case-hidden .second-case-hidden > div,
+.container > div .banner-case-3-hidden .first-case-hidden > div,
+.container > div .banner-case-3-hidden .second-case-hidden > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 280px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px 25px;
+  margin-top: -5px;
+}
+
+.container > div .banner-case-hidden .first-case-hidden > div h2,
+.container > div .banner-case-hidden .first-case-hidden > div p,
+.container > div .banner-case-hidden .second-case-hidden > div h2,
+.container > div .banner-case-hidden .second-case-hidden > div p,
+.container > div .banner-case-3-hidden .first-case-hidden > div h2,
+.container > div .banner-case-3-hidden .first-case-hidden > div p,
+.container > div .banner-case-3-hidden .second-case-hidden > div h2,
+.container > div .banner-case-3-hidden .second-case-hidden > div p {
+  text-align: center;
+}
+
+.container > div .banner-case-hidden .first-case-hidden > div .btn,
+.container > div .banner-case-hidden .second-case-hidden > div .btn,
+.container > div .banner-case-3-hidden .first-case-hidden > div .btn,
+.container > div .banner-case-3-hidden .second-case-hidden > div .btn {
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+  display: block;
+  margin-top: 15px;
+}
+
+.container > div .banner-case-hidden .first-case-hidden > div .btn a,
+.container > div .banner-case-hidden .second-case-hidden > div .btn a,
+.container > div .banner-case-3-hidden .first-case-hidden > div .btn a,
+.container > div .banner-case-3-hidden .second-case-hidden > div .btn a {
+  font-weight: 600;
+}
+
+.container > div .banner-case-hidden .first-case-hidden > div .btn i,
+.container > div .banner-case-hidden .second-case-hidden > div .btn i,
+.container > div .banner-case-3-hidden .first-case-hidden > div .btn i,
+.container > div .banner-case-3-hidden .second-case-hidden > div .btn i {
+  -webkit-transition: margin 0.4s;
+  transition: margin 0.4s;
+}
+
+.container > div .banner-case-hidden .first-case-hidden > div .btn:hover,
+.container > div .banner-case-hidden .second-case-hidden > div .btn:hover,
+.container > div .banner-case-3-hidden .first-case-hidden > div .btn:hover,
+.container > div .banner-case-3-hidden .second-case-hidden > div .btn:hover {
+  opacity: 0.9;
+}
+
+.container > div .banner-case-hidden .first-case-hidden > div .btn:hover i,
+.container > div .banner-case-hidden .second-case-hidden > div .btn:hover i,
+.container > div .banner-case-3-hidden .first-case-hidden > div .btn:hover i,
+.container > div .banner-case-3-hidden .second-case-hidden > div .btn:hover i {
+  margin-left: 8px;
+}
+
+.container > div .banner-case .first-case > div {
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.container > div .banner-case .first-case > div h2,
+.container > div .banner-case .first-case > div p {
+  text-align: center;
+  color: white;
+}
+
+.container > div .banner-case .first-case > div .btn {
+  background-color: #e6e6e6;
+  margin: 0 auto;
+}
+
+.container > div .banner-case .first-case > div .btn a {
+  color: black;
+}
+
+.container > div .banner-case .first-case > div .btn:hover a {
+  border-bottom: 2px solid black;
+}
+
+.container > div .banner-case .first-case .previous-btn, .container > div .banner-case .first-case .next-btn {
+  background-color: #31323A;
+  color: white;
+  opacity: 0.7;
+}
+
+.container > div .banner-case .first-case .previous-btn:hover, .container > div .banner-case .first-case .next-btn:hover {
+  opacity: 1;
+}
+
+.container > div .banner-case .second-case {
+  display: none;
+}
+
+.container > div .banner-case .second-case > div {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 8%;
+  cursor: pointer;
+}
+
+.container > div .banner-case .second-case > div h2,
+.container > div .banner-case .second-case > div p {
+  color: black;
+}
+
+.container > div .banner-case .second-case > div h2 {
+  width: 500px;
+}
+
+.container > div .banner-case .second-case > div p {
+  width: 460px;
+}
+
+.container > div .banner-case .second-case > div .btn {
+  background-color: black;
+}
+
+.container > div .banner-case .second-case > div .btn a, .container > div .banner-case .second-case > div .btn i {
+  color: white;
+}
+
+.container > div .banner-case .second-case > div .btn:hover a {
+  border-bottom: 2px solid white;
+}
+
+.container > div .banner-case .second-case .previous-btn, .container > div .banner-case .second-case .next-btn {
+  background-color: #fff;
+  opacity: 0.7;
+}
+
+.container > div .banner-case .second-case .previous-btn i, .container > div .banner-case .second-case .next-btn i {
+  color: black;
+}
+
+.container > div .banner-case .second-case .previous-btn:hover, .container > div .banner-case .second-case .next-btn:hover {
+  opacity: 1;
+}
+
+.container > div .banner-case-hidden .first-case-hidden > div {
+  background-color: #333333;
+}
+
+.container > div .banner-case-hidden .first-case-hidden > div h2,
+.container > div .banner-case-hidden .first-case-hidden > div p {
+  color: white;
+}
+
+.container > div .banner-case-hidden .first-case-hidden > div .btn {
+  background-color: white;
+}
+
+.container > div .banner-case-hidden .first-case-hidden > div .btn a {
+  color: black;
+}
+
+.container > div .banner-case-hidden .first-case-hidden > div .btn:hover a {
+  border-bottom: 2px solid black;
+}
+
+.container > div .banner-case-hidden .second-case-hidden {
+  display: none;
+}
+
+.container > div .banner-case-hidden .second-case-hidden > div {
+  background-color: #E6E6E6;
+  padding: 0 25px;
+}
+
+.container > div .banner-case-hidden .second-case-hidden > div h2,
+.container > div .banner-case-hidden .second-case-hidden > div p {
+  color: black;
+}
+
+.container > div .banner-case-hidden .second-case-hidden > div .btn {
+  background-color: black;
+}
+
+.container > div .banner-case-hidden .second-case-hidden > div .btn a {
+  color: white;
+}
+
+.container > div .banner-case-hidden .second-case-hidden > div .btn i {
+  color: white;
+}
+
+.container > div .banner-case-hidden .second-case-hidden > div .btn:hover a {
+  border-bottom: 2px solid white;
+}
+
+.container > div .store-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.container > div .store-section li {
+  margin-right: 50px;
+}
+
+.container > div .store-section li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container > div .store-section li div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container > div .store-section li div img {
+  height: 40px;
+  width: 40px;
+  display: block;
+  margin: 0 auto;
+}
+
+.container > div .store-section li div a {
+  margin-top: 6px;
+  width: 120px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.container > div .card-section {
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  padding: 50px 0 0;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 25px;
+}
+
+.container > div .card-section > article {
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+
+.container > div .card-section > article .heading {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  padding-bottom: 8px;
+}
+
+.container > div .card-section .chevron-link {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.container > div .card-section .chevron-link:hover > .ms-Icon--ChevronRightMed {
+  padding-left: 5px;
+}
+
+.container > div .card-section .chevron-link .ms-Icon--ChevronRightMed {
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.container > div .card-section .chevron-link,
+.container > div .card-section .chevron-a,
+.container > div .card-section i {
+  color: #0067ce;
+  margin-top: 10px;
+  font-size: 11px;
+}
+
+.container > div .card-section .chevron-a {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.container > div .card-section .chevron-a:hover {
+  border-bottom: 2px solid #0067ce;
+}
+
+.container > div .card-section .chevron-link,
+.container > div .card-section .chevron-i {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.container > div .card-section .cards {
+  margin-bottom: 40px;
+  width: 100%;
+  height: auto;
+}
+
+.container > div .card-section .cards .card-img {
+  width: 100%;
+  height: auto;
+}
+
+.container > div .card-section .cards .card-img:hover {
+  opacity: 0.9;
+}
+
+.container > div .banner-case-2-hidden {
+  display: none;
+  cursor: pointer;
+}
+
+.container > div .banner-case-2-hidden img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.container > div .banner-case-2-hidden > div {
+  background-color: #E6E6E6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 280px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -5px;
+  padding: 20px 25px;
+}
+
+.container > div .banner-case-2-hidden > div h2,
+.container > div .banner-case-2-hidden > div p {
+  color: black;
+  text-align: center;
+  margin: 0;
+}
+
+.container > div .banner-case-2-hidden > div .btn {
+  cursor: pointer;
+  padding: 10px;
+  background-color: black;
+  text-align: center;
+  width: 120px;
+  display: block;
+  margin-top: 15px;
+}
+
+.container > div .banner-case-2-hidden > div .btn a {
+  color: white;
+  font-weight: 600;
+}
+
+.container > div .banner-case-2-hidden > div .btn i {
+  color: white;
+  -webkit-transition: margin 0.4s;
+  transition: margin 0.4s;
+}
+
+.container > div .banner-case-2-hidden > div .btn:hover {
+  opacity: 0.9;
+}
+
+.container > div .banner-case-2-hidden > div .btn:hover a {
+  border-bottom: 2px solid white;
+}
+
+.container > div .banner-case-2-hidden > div .btn:hover i {
+  margin-left: 8px;
+}
+
+.container > div .banner-case-2 {
+  position: relative;
+  cursor: pointer;
+}
+
+.container > div .banner-case-2 img {
+  position: relative;
+  margin: auto;
+  width: 100%;
+}
+
+.container > div .banner-case-2 > div {
+  left: 5%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.container > div .banner-case-2 > div h2,
+.container > div .banner-case-2 > div p {
+  color: black;
+  margin-bottom: 15px;
+}
+
+.container > div .banner-case-2 > div h2 {
+  width: 500px;
+}
+
+.container > div .banner-case-2 > div p {
+  width: 460px;
+}
+
+.container > div .banner-case-2 > div .btn {
+  padding: 10px;
+  background-color: black;
+  text-align: center;
+  display: block;
+  width: 120px;
+}
+
+.container > div .banner-case-2 > div .btn a {
+  color: white;
+  font-weight: 600;
+}
+
+.container > div .banner-case-2 > div .btn i {
+  color: white;
+  -webkit-transition: margin 0.4s;
+  transition: margin 0.4s;
+}
+
+.container > div .banner-case-2 > div .btn:hover {
+  opacity: 0.9;
+}
+
+.container > div .banner-case-2 > div .btn:hover a {
+  border-bottom: 2px solid white;
+}
+
+.container > div .banner-case-2 > div .btn:hover i {
+  margin-left: 8px;
+}
+
+.container > div .banner-case-3 .first-case {
+  cursor: pointer;
+}
+
+.container > div .banner-case-3 .first-case img {
+  margin: auto;
+}
+
+.container > div .banner-case-3 .first-case > div {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 5%;
+}
+
+.container > div .banner-case-3 .first-case > div h2,
+.container > div .banner-case-3 .first-case > div p {
+  color: black;
+}
+
+.container > div .banner-case-3 .first-case > div h2 {
+  width: auto;
+}
+
+.container > div .banner-case-3 .first-case > div p {
+  width: 440px;
+}
+
+.container > div .banner-case-3 .first-case > div .btn {
+  background-color: black;
+}
+
+.container > div .banner-case-3 .first-case > div .btn a,
+.container > div .banner-case-3 .first-case > div .btn i {
+  color: white;
+}
+
+.container > div .banner-case-3 .first-case > div .btn:hover a {
+  border-bottom: 2px solid white;
+}
+
+.container > div .banner-case-3 .first-case .previous-btn,
+.container > div .banner-case-3 .first-case .next-btn {
+  background-color: #f7fcfa;
+  color: white;
+  opacity: 0.7;
+}
+
+.container > div .banner-case-3 .first-case .previous-btn i,
+.container > div .banner-case-3 .first-case .next-btn i {
+  color: black;
+}
+
+.container > div .banner-case-3 .first-case .previous-btn:hover,
+.container > div .banner-case-3 .first-case .next-btn:hover {
+  opacity: 1;
+}
+
+.container > div .banner-case-3 .second-case {
+  display: none;
+}
+
+.container > div .banner-case-3 .second-case > img {
+  margin: auto;
+}
+
+.container > div .banner-case-3 .second-case > div {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 6%;
+  cursor: pointer;
+}
+
+.container > div .banner-case-3 .second-case > div h2,
+.container > div .banner-case-3 .second-case > div p {
+  color: white;
+}
+
+.container > div .banner-case-3 .second-case > div h2 {
+  width: 400px;
+}
+
+.container > div .banner-case-3 .second-case > div p {
+  width: 460px;
+}
+
+.container > div .banner-case-3 .second-case > div .btn {
+  background-color: white;
+}
+
+.container > div .banner-case-3 .second-case > div .btn a,
+.container > div .banner-case-3 .second-case > div .btn i {
+  color: black;
+}
+
+.container > div .banner-case-3 .second-case > div .btn:hover a {
+  border-bottom: 2px solid black;
+}
+
+.container > div .banner-case-3 .second-case .previous-btn,
+.container > div .banner-case-3 .second-case .next-btn {
+  background-color: #31323A;
+  color: white;
+  opacity: 0.7;
+}
+
+.container > div .banner-case-3 .second-case .previous-btn:hover,
+.container > div .banner-case-3 .second-case .next-btn:hover {
+  opacity: 1;
+}
+
+.container > div .banner-case-3-hidden .first-case-hidden > div {
+  background-color: #E6E6E6;
+  padding: 0 25px;
+}
+
+.container > div .banner-case-3-hidden .first-case-hidden > div h2,
+.container > div .banner-case-3-hidden .first-case-hidden > div p {
+  color: black;
+}
+
+.container > div .banner-case-3-hidden .first-case-hidden > div .btn {
+  background-color: black;
+}
+
+.container > div .banner-case-3-hidden .first-case-hidden > div .btn a, .container > div .banner-case-3-hidden .first-case-hidden > div .btn i {
+  color: white;
+}
+
+.container > div .banner-case-3-hidden .first-case-hidden > div .btn:hover a {
+  border-bottom: 2px solid white;
+}
+
+.container > div .banner-case-3-hidden .second-case-hidden {
+  display: none;
+}
+
+.container > div .banner-case-3-hidden .second-case-hidden > div {
+  background-color: #333333;
+}
+
+.container > div .banner-case-3-hidden .second-case-hidden > div h2,
+.container > div .banner-case-3-hidden .second-case-hidden > div p {
+  color: white;
+}
+
+.container > div .banner-case-3-hidden .second-case-hidden > div .btn {
+  background-color: white;
+}
+
+.container > div .banner-case-3-hidden .second-case-hidden > div .btn a {
+  color: black;
+}
+
+.container > div .banner-case-3-hidden .second-case-hidden > div .btn:hover a {
+  border-bottom: 2px solid black;
+}
+
+.container > div .banner-case,
+.container > div .banner-case-2,
+.container > div .banner-case-3 {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container > div .social-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 40px 0;
+}
+
+.container > div .social-section p {
+  margin-right: 12px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 15px;
+  text-align: center;
+}
+
+.container > div .social-section img {
+  cursor: pointer;
+  width: 25px;
+  height: 27px;
+  margin-right: 15px;
+}
+
+.container > div .social-section img:hover {
+  opacity: 0.9;
+}
+
+footer {
+  width: 100%;
+  background-color: #F2F2F2;
+  height: auto;
+}
+
+.footer {
+  background: #f2f2f2;
+  max-width: calc(1600px + 10%);
+  padding-top: 20px;
+  color: #616161;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer .footer-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 25px 3.8em;
+}
+
+.footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.footer div p {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 12px;
+  font-style: normal;
+}
+
+.footer a {
+  margin-bottom: 14px;
+  font-size: 11px;
+  color: #616161;
+}
+
+.footer a:hover {
+  color: rgba(0, 0, 0, 0.9);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 3.8em;
+}
+
+.footer section .globe-country {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer section .globe-country a {
+  margin-left: 10px;
+}
+
+.footer section div .country-btn {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.footer section div .country-btn:hover {
+  color: #616161;
+}
+
+.footer section .contact-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+}
+
+.footer section .contact-section a {
+  margin-right: 13px;
+}
+
+.footer section .contact-section p {
+  font-size: 11px;
+}
+/*# sourceMappingURL=style.css.map */

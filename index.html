@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Microsoft - Official Home Page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet"
+    href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.1/css/fabric.min.css">
+    <link rel = "icon" type="image/x-icon" href="img/favicon.ico" >
+</head>
+
+<body>
+  <div class="container">
+    <div>
+
+      <header class="header-region" >
+        <nav class="nav-menu">
+          <div class="logo"></div>
+
+          <ul class="nav-menu-list">
+            <li><a>Microsoft 365</a></li>
+            <li><a>Office</a></li>
+            <li><a>Windows</a></li>
+            <li><a>Surface</a></li>
+            <li><a>Xbox</a></li>
+            <li><a>Deals</a></li>
+            <li><a>Support</a></li>
+            <li>
+              <a >More</a>
+              <i class="fa fa-chevron-down"></i>
+            </li>
+          </ul>
+            <div class="chevron-down"><a>All Microsoft</a><i class="fa fa-chevron-down"></i></div>
+            <a class="content">Search</a>
+            <div class="search-btn"><i class="ms-Icon ms-font-xl ms-Icon--Search"></i></div>
+            <a class="content">Cart</a>
+            <div class="cart-btn"><i class="ms-Icon ms-font-xl ms-Icon--ShoppingCart"></i></div>
+            <a class="content">Hasanov</a>
+            <div class="user-btn"><i class="ms-Icon ms-font-xl ms-Icon--Contact"></i></div>
+        </nav>
+
+        <nav class="nav-menu-2">
+          <div class="burger-menu" onclick="showNavigationMenu()">
+            <b class="ms-Icon ms-font-xl ms-Icon--GlobalNavButton"></b>
+          </div>
+          <div class="close" onclick="closeNavigationMenu()">
+            <i class="ms-Icon ms-font-lg ms-Icon--ChromeClose"></i>
+          </div>
+          <div class="search-btn"><i class="ms-Icon ms-font-xl ms-Icon--Search"></i></div>
+          <div class="logo"></div>
+          <div class="cart-btn"><i class="ms-Icon ms-font-xl ms-Icon--ShoppingCart"></i></div>
+          <div class="user-btn"><i class="ms-Icon ms-font-xl ms-Icon--Contact"></i></div>
+        </nav>
+
+        <nav class="nav-menu-mobile">
+          <div>
+
+            <div><a>Microsoft 365</a></div>
+            <div><a>Office</a></div>
+            <div><a>Windows</a></div>
+            <div><a>Surface</a></div>
+            <div><a>Xbox</a></div>
+            <div><a>Deals</a></div>
+            <div><a>Support</a></div>
+  
+            <div onclick="showSoftware()">
+              <div class="dropdown">
+                <span class="dropbtn">Software</span>
+                <i id="softwareDropdownChevron" class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+  
+            <div id="softwareDropdown" class="dropdown-content-default-hidden">
+              <div id="softwareDropdownContent" class="dropdown-content">
+                <div class="dropdown-content-flex">
+                  <a>Windows Apps</a>
+                  <a>OneDrive</a>
+                  <a>Outlook</a>
+                  <a>Skype</a>
+                  <a>OneNote</a>
+                  <a>Microsoft Teams</a>
+                  <a>Microsoft Edge</a>
+                </div>
+              </div>
+            </div>
+  
+            <div onclick="showPCsDevices()">
+              <div class="dropdown">
+                <span class="dropbtn">PCs & Devices</span>
+                <i id="PCsDropdownChevron" class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+  
+            <div id="PCsDropdown" class="dropdown-content-default-hidden">
+              <div id="PCsDropdownContent" class="dropdown-content">
+                <div class="dropdown-content-flex">
+                  <a>Computers</a>
+                  <a>Shop Xbox</a>
+                  <a>Accessories</a>
+                  <a>VR & mixed reality</a>
+                  <a>Phones</a>
+                </div>
+              </div>
+            </div>
+  
+            <div onclick="showEntertainment()">
+              <div class="dropdown">
+                <span class="dropbtn">Entertainment</span>
+                <i id="entertainmentDropdownChevron" class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+  
+            <div id="entertainmentDropdown" class="dropdown-content-default-hidden">
+              <div id="entertainmentDropdownContent" class="dropdown-content">
+                <div class="dropdown-content-flex">
+                  <a>Xbox Game Pass Ultimate</a>
+                  <a>Xbox Live Gold</a>
+                  <a>Xbox Games</a>
+                  <a>PC games</a>
+                  <a>Windows digital games</a>
+                  <a>Movies & TV</a>
+                </div>
+              </div>
+            </div>
+  
+            <div onclick="showBusiness()">
+              <div class="dropdown">
+                <span class="dropbtn">Business</span>
+                <i id="businessDropdownChevron" class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+  
+            <div id="businessDropdown" class="dropdown-content-default-hidden">
+              <div id="businessDropdownContent" class="dropdown-content">
+                <div class="dropdown-content-flex">
+                  <a>Microsoft Azure</a>
+                  <a>Microsoft Dynamics 365</a>
+                  <a>Microsoft 365</a>
+                  <a>Microsoft Industry</a>
+                  <a>Data platform</a>
+                  <a>Microsoft Advertising</a>
+                  <a>Licensing</a>
+                  <a>Shop Business</a>
+                </div>
+              </div>
+            </div>
+  
+            <div onclick="showDeveloperIT()">
+              <div class="dropdown">
+                <span class="dropbtn">Developer & IT</span>
+                <i id="developerITDropdownChevron" class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+  
+            <div id="developerITDropdown" class="dropdown-content-default-hidden">
+              <div id="developerITDropdownContent" class="dropdown-content">
+                <div class="dropdown-content-flex">
+                  <a>.NET</a>
+                  <a>Visual Studio</a>
+                  <a>Windows Server</a>
+                  <a>Windows Dev Center</a>
+                  <a>Docs</a>
+                </div>
+              </div>
+            </div>
+  
+            <div onclick="showOther()">
+              <div class="dropdown">
+                <span class="dropbtn">Other</span>
+                <i id="otherDropdownChevron" class="fas fa-chevron-down"></i>
+              </div>
+            </div>
+  
+            <div id="otherDropdown" class="dropdown-content-default-hidden">
+              <div id="otherDropdownContent" class="dropdown-content">
+                <div class="dropdown-content-flex">
+                  <a>Microsoft Rewards</a>
+                  <a>Free downloads & security</a>
+                  <a>Education</a>
+                  <a>Store locations</a>
+                  <a>Gift cards</a>
+                </div>
+              </div>
+            </div>
+  
+            <div><a>View Sitemap</a></div>
+          </div>
+        </nav>
+
+        
+      </header>
+
+      <section class="covid-info">
+        <a>Read how we're responding to the COVID-19 outbreak, and get resources
+          to help <i class="ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i></a>
+      </section>
+
+      <section class="banner-case">
+        <div class="first-case">
+          <picture>
+            <source srcset="img/RE4tt3U_1083x609.png" media="(max-width:1083px)" />
+            <img src="img/RE4tt3U_1600x600.png">
+          </picture>
+          <div>
+            <h2>Microsoft Teams - Safe + Secure</h2>
+            <p>Teams can help you stay productive, no matter where you are</p>
+            <div class="btn">
+              <a>Learn more</a>
+              <i class="ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+            </div>
+          </div>
+          <button class="previous-btn" onclick="bannerCaseSwipe()">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="next-btn" onclick="bannerCaseSwipe()">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+        <div class="second-case">
+          <picture>
+            <source srcset="img/RE4u5ku_1083x609.png" media="(max-width:1083px)" />
+            <img src="img/RE4u5ku.jpg">
+          </picture>
+          <div>
+            <h2>Powerhouse performance</h2>
+            <p>The most powerful Surface yet, new Surface Book 3 delivers the versatility of a laptop, tablet, and
+              portable studio</p>
+            <div class="btn">
+              <a>Shop now</a>
+              <i class="ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+            </div>
+          </div>
+          <button class="previous-btn" onclick="bannerCaseSwipe()">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="next-btn" onclick="bannerCaseSwipe()">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </section>
+
+      <section class="banner-case-hidden">
+        <div class="first-case-hidden">
+          <img src="img/RE4tt3U_767x431.png">
+          </img>
+          <div>
+            <h2>Microsoft Teams - Safe + Secure</h2>
+            <p>Teams can help you stay productive, no matter where you are</p>
+            <div class="btn">
+              <a>Learn more</a>
+              <i class="ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+            </div>
+          </div>
+        </div>
+        <div class="second-case-hidden">
+          <img src="img/RE4u5ku(2).PNG">
+          <div>
+            <h2>Powerhouse performance</h2>
+            <p>The most powerful Surface yet, new Surface Book 3 delivers the versatility of a laptop, tablet, and
+              portable studio</p>
+            <div class="btn">
+              <a>Shop now</a>
+              <i class="ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section>
+        <ul class="store-section">
+          <li>
+            <div>
+              <img src="img/RE4sQDc.png" alt="">
+              <a>Choose your Microsoft 365</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="img/RE4pndL.png" alt="">
+              <a>Shop Surface devices</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="img/RE4pxBu.png" alt="">
+              <a>Buy Xbox games and consoles</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="img/RE4pkvE.png" alt="">
+              <a>Shop Windows 10</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="img/RE4pkvg.png" alt="">
+              <a>Find your next PC</a>
+            </div>
+          </li>
+
+        </ul>
+      </section>
+
+      <section class="card-section">
+        <article>
+          <div class="cards"><img src="img/RE4tj4A.webp" class="card-img"></img></div>
+          <a class="heading">This is your 365</a>
+          <p>Discover what's possible every day with Microsoft 365.</p>
+          <div class="chevron-link">
+            <a class="chevron-a">For up to 6 people</i></a>
+            <i class="chevron-i ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+          </div>
+          <div class="chevron-link">
+            <a class="chevron-a">For 1 person </a>
+            <i class="chevron-i ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+          </div>
+        </article>
+
+        <article>
+          <div class="cards"><img src="img/RE4qP8j.webp" class="card-img"></div>
+          <a class="heading">Bundle and save up to $330</a>
+          <p>Wrap up speed and style with a Surface Pro 7 and Type Cover.</p>
+          <div class="chevron-link">
+            <a class="chevron-a">Shop now</a>
+            <i class="chevron-i ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+          </div>
+        </article>
+
+        <article>
+          <div class="cards"><img src="img/RE4wpxG.webp" class="card-img"></div>
+          <a class="heading">Trade and upgrade</a>
+          <p>
+            Get at least $100 off a qualifying Surface when you trade in an eligible used device.
+          </p>
+          <div class="chevron-link">
+            <a class="chevron-a">Shop now</a>
+            <i class="chevron-i ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+          </div>
+        </article>
+
+        <article>
+          <div class="cards"><img src="img/RE4rzE2.webp" class="card-img"></div>
+          <a class="heading">Introducing the new Microsoft Edge</a>
+          <p>World-class performance with more privacy, more productivity, and more value while you browse.</p>
+          <div class="chevron-link">
+            <a class="chevron-a">Download now</a>
+            <i class="chevron-i ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+          </div>
+        </article>
+      </section>
+
+      <section class="banner-case-2">
+        <picture>
+          <source srcset="img/RE4mU1P(2).jpg" media="(max-width: 1083px)" />
+          <img src="img/RE4mU1P.png">
+        </picture>
+        <div>
+          <h2>Xbox Game Pass Ultimate</h2>
+          <p>Xbox Live Gold and over 100 high-quality console and PC games. Play together with friends and discover your
+            next favorite game.</p>
+          <div class="btn">
+            <a>Join now</a>
+            <i class="ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="banner-case-2-hidden">
+        <img src="img/RE4mU1P.jpg">
+        <div>
+          <h2>Xbox Game Pass Ultimate</h2>
+          <p>Xbox Live Gold and over 100 high-quality console and PC games. Play together with friends and discover your
+            next favorite game.</p>
+          <div class="btn">
+            <a>Join now</a>
+            <i class="ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="card-section">
+        <article>
+          <div class="cards"><img src="img/RE4ualb.webp" class="card-img"></img></div>
+          <a class="heading">The ultimate business partner</a>
+          <p>New Surface Book 3 for Business is built to handle the most intensive workloads.</p>
+          <div class="chevron-link">
+            <a class="chevron-a">Shop now</i></a>
+            <i class="chevron-i ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+          </div>
+        </article>
+
+        <article>
+          <div class="cards"><img src="img/RE4rvYV.webp" class="card-img"></div>
+          <a class="heading">Microsoft 365 for business</a>
+          <p>Microsoft 365 for business provides powerful services that can help you run and grow your business.</p>
+          <div class="chevron-link">
+            <a class="chevron-a">Shop now</a>
+            <i class="chevron-i ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+          </div>
+        </article>
+
+        <article>
+          <div class="cards"><img src="img/RE4vkSt.webp" class="card-img"></div>
+          <a class="heading">Solutions for today's challenges</a>
+          <p>
+            Learn how to keep your business up and running with affordable, practical fixes.
+          </p>
+          <div class="chevron-link">
+            <a class="chevron-a">Learn more</a>
+            <i class="chevron-i ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+          </div>
+        </article>
+
+        <article>
+          <div class="cards"><img src="img/RE4vkCL.webp" class="card-img"></div>
+          <a class="heading">Microsoft Build 2020</a>
+          <p>Learn how Microsoft is helping developers create, innovate, and do more in this free virtual event.</p>
+          <div class="chevron-link">
+            <a class="chevron-a">Watch on-demand</a>
+            <i class="chevron-i ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+          </div>
+        </article>
+      </section>
+
+      <section class="banner-case-3">
+        <div id="first-3" class="first-case">
+          <picture>
+            <source srcset="img/RE4wEst_1083x609.jpg" media="(max-width:1083px)" />
+            <img src="img/RE4wEst.jpg">
+          </picture>
+          <div>
+            <h2>Building a more accessible world</h2>
+            <p>Get a behind-the-scenes look at how Microsoft employees have helped build products and services to enrich
+              the lives of people with disabilities</p>
+            <div class="btn">
+              <a>Learn more</a>
+              <i class="ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+            </div>
+          </div>
+          <button class="previous-btn" onclick="bannerCase3Swipe()">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="next-btn" onclick="bannerCase3Swipe()">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+        <div id="second-3" class="second-case">
+          <picture>
+            <source srcset="img/RE4wAgi(2).png" media="(max-width: 1083px)" />
+            <img src="img/RE4wAgi.webp">
+          </picture>
+          <div>
+            <h2>Staying connected in the virtual classroom</h2>
+            <p>See how educators around the globe are making remote learning effective and engaging</p>
+            <div class="btn">
+              <a>Learn more</a>
+              <i class="ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+            </div>
+          </div>
+          <button class="previous-btn" onclick="bannerCase3Swipe()">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="next-btn" onclick="bannerCase3Swipe()">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </section>
+      <section class="banner-case-3-hidden">
+
+        <div id="first-3-hidden" class="first-case-hidden">
+          <img src="img/RE4wEst(3).webp">
+          </img>
+          <div>
+            <h2>Building a more accessible world</h2>
+            <p>Get a behind-the-scenes look at how Microsoft employees have helped build products and services to enrich
+              the lives of people with disabilities</p>
+            <div class="btn">
+              <a>Learn more</a>
+              <i class="ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+            </div>
+          </div>
+        </div>
+        <div id="second-3-hidden" class="second-case-hidden">
+          <img src="img/RE4wAgi(3).webp">
+          <div>
+            <h2>Staying connected in the virtual classroom</h2>
+            <p>See how educators around the globe are making remote learning effective and engaging</p>
+            <div class="btn">
+              <a>Learn more</a>
+              <i class="ms-Icon ms-font-xl ms-Icon--ChevronRightMed"></i>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <div class="social-section">
+        <p>Follow Microsoft</p>
+        <a href="https://www.facebook.com/Microsoft" target="_fb">
+          <img src="img/facebook.png">
+        </a>
+        <a href="https://twitter.com/microsoft" target="_tw">
+          <img src="img/twitter.png">
+        </a>
+        <a href="https://www.linkedin.com/company/microsoft" target="_in">
+          <img src="img/linkedin.png">
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="footer-grid">
+        <div>
+          <p>What's new</p>
+          <a>Surface Go 2</a>
+          <a>Surface Book 3</a>
+          <a>Microsoft 365</a>
+          <a>Surface Pro X</a>
+          <a>Windows 10 apps</a>
+        </div>
+        <div>
+          <p>Microsoft Store</p>
+          <a>Account Profile</a>
+          <a>Download Center</a>
+          <a>Microsoft Store support</a>
+          <a>Returns</a>
+          <a>Order tracking</a>
+          <a>Store locations</a>
+          <a>Buy online, pick up in store</a>
+          <a>In-store events</a>
+        </div>
+        <div>
+          <p>Education</p>
+          <a>Microsoft in education</a>
+          <a>Office for students</a>
+          <a>Office 365 for schools</a>
+          <a>Deals for students & parents</a>
+          <a>Microsoft Azure in education</a>
+        </div>
+        <div>
+          <p>Enterprise</p>
+          <a>Azure</a>
+          <a>AppSource</a>
+          <a>Automotive</a>
+          <a>Government</a>
+          <a>Healthcare</a>
+          <a>Manufacturing</a>
+          <a>Financial services</a>
+          <a>Retail</a>
+        </div>
+        <div>
+          <p>Developer</p>
+          <a>Microsoft Visual Studio</a>
+          <a>Windows Dev Center</a>
+          <a>Developer Network</a>
+          <a>TechNet</a>
+          <a>Microsoft developer program</a>
+          <a>Channel 9</a>
+          <a>Office Dev Center</a>
+          <a>Microsoft Garage</a>
+        </div>
+        <div>
+          <p>Company</p>
+          <a>Careers</a>
+          <a>About Microsoft</a>
+          <a>Company news</a>
+          <a>Privacy at Microsoft</a>
+          <a>Investors</a>
+          <a>Diversity and inclusion</a>
+          <a>Accessibility</a>
+          <a>Security</a>
+        </div>
+      </div>
+
+      <section>
+        <div class="globe-country">
+          <i class="ms-Icon ms-font-xl ms-Icon--World" aria-hidden="true"></i>
+          <a class="country-btn">English (United States)</a>
+        </div>
+
+        <div class="contact-section">
+          <a>Sitemap</a>
+          <a>Contact Microsoft</a>
+          <a>Privacy & cookies</a>
+          <a>Terms of use</a>
+          <a>Trademarks</a>
+          <a>Safety & eco</a>
+          <a>About our ads</a>
+          <p>© Microsoft 2020</p>
+        </div>
+      </section>
+    </div>
+  </footer>
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
